@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Dosis", sans-serif;
+}
+body {
+  min-width: 100px;
+}
+.top_index {
+  height: 100vh;
+}
+
+/*------------------------------ FOOTER ---------------------*/
+.footer_section {
+  margin: 0 10%;
+}
+.footer_index {
+  padding: 0 8%;
+  padding-top: 40px;
+  background-color: #141414;
+  min-height: 20vh;
+  color: #808080;
+}
+.footer_index_top {
+  margin-bottom: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.social_links li {
+  display: inline;
+  padding-right: 10px;
+}
+.social_links li a {
+  color: #808080;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+}
+.footer_index_top_01 {
+  margin-bottom: 10px;
+}
+.footer_index_top_01 p {
+  font-size: 20px;
+}
+.footer_copyright {
+  padding-bottom: 10px;
+}
+.footer_copyright a {
+  color: #c6c3c3;
+}
+.sitemap {
+  margin: 0 auto;
+}
+.sitemap p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #c6c3c3;
+}
+.sitemap a {
+  font-size: 17px;
+  color: #808080;
+}
+.sitemap a:hover {
+  text-decoration: underline;
+  color: #808080;
+}
+.copyright hr {
+  border: 0.5px solid rgba(255, 255, 255, 0.438);
+}
